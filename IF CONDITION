@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class {
+
+public static void main (String[] args) {
+Scanner input = new Scanner (System.in); 
+
+System.out.println("Enter Initial: ");
+char y = input.nextLine().charAt(0);
+
+System.out.println("Enter Age: ");
+int x = input.nextInt();
+
+if (x<18)
+{
+System.out.println("Your Initial Is: " + y);
+System.out.println("Age NOT QUALIFIED to Vote");
+}
+else
+{
+System.out.println("Your Initial Is: " + y);
+System.out.println("Age QUALIFIED to Vote");
+}
+
+}
+}
