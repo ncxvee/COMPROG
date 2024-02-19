@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class {
+
+public static void main (String[] args) {
+Scanner input = new Scanner (System.in); 
+
+System.out.println(" CAFETERIA MENU ");
+System.out.println(" [A] - SNACKS ");
+System.out.println(" [B] - DRINKS ");
+System.out.println(" [C] - EXIT ");
+
+System.out.println("Enter Your Choice: ");
+char x = input.nextLine().charAt(0);
+
+if (x=='a'||x=='A')
+{
+System.out.println("You chose SNACKS, here's the menu: ");
+System.out.println(" [A] Piatos - 20php ");
+System.out.println(" [B] V-Cut - 20php ");
+System.out.println(" [C] Nova - 20php ");
+}
+else if (x=='b'||x=='B')
+{
+System.out.println("You chose DRINKS, here's the menu: ");
+System.out.println(" [A] Coffee - 20php ");
+System.out.println(" [B] Water - 20php ");
+System.out.println(" [C] Softdrinks - 20php ");
+}
+else
+{
+System.out.println(" Thank You Uwu :3 ");
+}
+
+}
+}
