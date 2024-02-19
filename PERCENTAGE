@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class {
+
+public static void main (String[] args) {
+Scanner input = new Scanner (System.in); 
+
+System.out.println(" PERFORMANCE TASK ");
+
+System.out.println("First Activity (Score): ");
+int a = input.nextInt();
+
+System.out.println("Second Activity (Score): ");
+int b = input.nextInt();
+
+System.out.println("Third Activity (Score): ");
+int c = input.nextInt();
+
+int sum;
+sum = a + b + c;
+
+double per;
+per = sum * 0.60;
+
+float ave;
+ave = sum / 3;
+
+System.out.println("Percentage: " + per);
+
+System.out.println("Average (PETA): " + ave);
+
+}
+}
