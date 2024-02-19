@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class {
+
+public static void main (String[] args) {
+Scanner input = new Scanner (System.in); 
+
+System.out.println("First Quarter (Average): ");
+int x = input.nextInt();
+
+System.out.println("Second Quarter (Average): ");
+int y = input.nextInt();
+
+System.out.println("Third Quarter (Average): ");
+int z = input.nextInt();
+
+int sum;
+sum = x + y + z;
+
+float quot;
+quot = sum / 3;
+
+System.out.println("General Average: " + quot);
+
+}
+}
