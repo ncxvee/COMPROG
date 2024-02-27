@@ -1,0 +1,15 @@
+if(jTextField1.getText().equals(0)||jTextField2.getText().equals(0)||jTextField3.getText().equals(0))
+{
+JOptionPane.showMessageDialog(this, "Please Input All Data");
+}
+else
+{
+String data [] = {jTextField1.getText(),jTextField2.getText(),jTextField3.getText()};
+        
+DefaultTableModel tblModel = (DefaultTableModel)jTable1.getModel();
+        
+tblModel.addRow(data);
+        
+JOptionPane.showMessageDialog(this, "Data Added Successfully!");
+}
+}                                        
