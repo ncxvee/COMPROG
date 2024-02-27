@@ -1,0 +1,19 @@
+DefaultTableModel tblModel = (DefaultTableModel)jTable1.getModel();
+        
+if(jTable1.getSelectedColumn()==1)
+{
+tblModel.removeRow(jTable1.getSelectedRow());
+}
+else
+{
+if(jTable1.getRowCount()==0)
+{
+JOptionPane.showMessageDialog(this, "Table Is Empty");
+}
+else
+{
+JOptionPane.showMessageDialog(this, "Please Select Single Row for Delete");
+}
+        
+}
+}                               
