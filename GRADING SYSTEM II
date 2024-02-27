@@ -1,0 +1,14 @@
+int a = Integer.parseInt(jTextField1.getText());
+int b = Integer.parseInt(jTextField2.getText());
+int c = Integer.parseInt(jTextField3.getText());
+int d = Integer.parseInt(jTextField4.getText());
+
+int sum;
+sum = a + b + c + d;
+
+double quot;
+quot = sum / 4;
+
+jTextField5.setText("" + String.valueOf(quot));
+        
+JOptionPane.showMessageDialog(this, "Completed Successfully");
