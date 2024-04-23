@@ -1,0 +1,30 @@
+<html>
+    <head><title>Irish Nicole Bernardo</title></head>
+    
+         <p>Paragraph</p>
+        
+        <br>
+        <b>bold</b> <i>Italic</i> <u>Underline</u>
+        <br>
+        
+        <h1>Heading</h1>
+        
+        <br>
+        <font face = "Algerian">Irish</font> <font size = "20px">Irish</font> <font color = "#00FFFF">Irish</font>
+        
+        
+        <marquee>Wohoooo</marquee>
+
+<marquee
+  direction="down"
+  width="250"
+  height="200"
+  behavior="alternate"
+  style="border:solid">
+  <marquee behavior="alternate">This text will bounce</marquee>
+</marquee>
+        
+        
+    </body>
+    
+</html>
